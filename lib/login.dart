@@ -32,7 +32,7 @@ class Login extends StatefulWidget {
 //jika user ditemukan
       String emailAPI = datauser['email'];
       String namaAPI = datauser['nama'];
-      String id = datauser['id'];
+      String id = datauser['id'];    
       String photo = datauser['photo'];
       //set level to int
       int level = int.parse(datauser['level']);
